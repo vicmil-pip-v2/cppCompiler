@@ -8,7 +8,7 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 sys.path.append(str(Path(__file__).resolve().parents[3])) 
 sys.path.append(str(Path(__file__).resolve().parents[4])) 
 
-from vicmil_pip.packages.cppBuild import BuildSetup, get_directory_path
+from vizpip_env.lib.pyUtil import BuildSetup, get_directory_path
 import platform
 
 def get_build_setup(browser: bool):
