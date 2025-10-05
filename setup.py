@@ -14,8 +14,8 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 sys.path.append(str(Path(__file__).resolve().parents[3])) 
 sys.path.append(str(Path(__file__).resolve().parents[4])) 
 
-from vizpip_env.lib.pyUtil import *
-from vizpip_env.installer import install_package
+from vicmil_pip.lib.pyUtil import *
+from vicmil_pip.installer import install_package
 
 import zipfile
 
